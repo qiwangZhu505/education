@@ -1,0 +1,80 @@
+a,span,li,div,table,td,tr,th,em,body,html{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+html{
+    height:100%;
+    width:100%;
+    background-color: rgb(168, 222, 231);
+}
+.background{
+    width:100%;
+    height:100%;
+    position:relative;
+    background-color: rgb(168, 222, 231);
+}
+.main{
+    width:500px;
+    height:600px;
+    margin:0px auto;
+    background-color:rgb(255, 255, 255);
+    border:1px solid rgb(167, 167, 167);
+    border-radius:10px;
+    position:relative;
+    top:70px;
+}
+.st_change{
+    width:400px;
+    height:100px;
+    margin:0 auto;
+    position:relative;
+}
+.zhuce_inf{
+    width:400px;
+    height:500px;
+    margin:0 auto;
+    position:relative;
+    text-align: center;
+}
+.p1{
+    width:100px;
+    height:30px;
+    background-color: rgb(88, 214, 223);
+    position:relative;
+    text-align: center;
+    font-size:18px;
+    line-height: 30px;
+    color:white;
+    margin:40px 40px 0 40px;
+    border-radius:5px;
+    border:1px solid rgb(54, 173, 194);
+}
+#student{
+    float:left;
+    background-color:rgb(58, 197, 221);
+}
+#teacher{
+    float:right;
+    background-color: rgb(148, 222, 228);
+}
+#zhuce_teacher{
+    display:none;
+}
+.box input{
+    width:200px;
+    height:30px;
+    margin:15px auto;
+    border-radius:5px;
+}
+.button input{
+    width:100px;
+    height:30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(78, 197, 147);
+    font-size: 16px;
+    color:white;
+}

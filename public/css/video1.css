@@ -1,0 +1,35 @@
+a,span,li,div,table,td,tr,th,em,body,html{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;;
+}
+body{
+    background-color:rgb(233, 230, 230);
+}
+.head{
+    width:1534px;
+    height:150px;
+    position:relative;
+    margin:0 auto;
+}
+.head img{
+    width:1534px;
+    height:150px;
+}
+.body{
+    width:1100px;
+    margin:0 auto;
+    position:relative;
+    background-color:white;
+}
+.video{
+    width:1000px;
+    height:800px;
+    position:relative;
+    margin:0 auto;
+}
