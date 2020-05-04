@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教师管理学习界面</title>
+    <link rel="icon" type="image/x-icon" href="../public/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../public/css/t_study.css">
+</head>
+<body>
+     <div class="main">         
+        <div class="top_title">发布视频</div>
+             <div class="center">
+             <form action="../php/t_study.php" method="post" enctype="multipart/form-data">
+                 <select name="gread" id="">
+                     <option value="">选择年级</option>
+                     <option value="1">一年级</option>
+                     <option value="2">二年级</option>
+                     <option value="3">三年级</option>
+                     <option value="4">四年级</option>
+                     <option value="5">五年级</option>
+                     <option value="6">六年级</option>
+                 </select>
+                 <select name="subjects" id="">
+                     <option value="">选择科目</option>
+                     <option value="yuwen">语文</option>
+                     <option value="shuxue">数学</option>
+                     <option value="yingyu">英语</option>
+                     <option value="meishu">美术</option>
+                     <option value="yinyue">音乐</option>
+                     <option value="kexue">科学</option>
+                 </select>
+                 <select name="week" id="">
+                     <option value="">选择时间段</option>
+                     <option value="1">第一周</option>
+                     <option value="2">第二周</option>
+                     <option value="3">第三周</option>
+                     <option value="4">第四周</option>
+                     <option value="5">第五周</option>
+                     <option value="6">第六周</option>
+                 </select>
+                 <div class="div_title">标&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;题：<input type="text" name="title"><br><br>
+                 视频资源:&nbsp;&nbsp;<input type="file" name="v_file"><br><br>
+                 图片资源:&nbsp;&nbsp;<input type="file" name="img_file"><br><br>
+                 课程描述：<textarea name="_describe" cols="100" rows="10" style="border-radius:10px;" ></textarea>
+                 <div class="submit_btn"><input type="submit" value="发布"></div>
+                </div>
+             </form>
+         </div>
+     </div>
+</body>
+</html>
